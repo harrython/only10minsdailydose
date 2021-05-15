@@ -1,0 +1,8 @@
+#Class Method w/o parameter
+class Mobile:
+    @classmethod            #Decorator
+    def show_model(cls):    #Class Method
+        print("Redmi Note 7")
+
+realme = Mobile()
+Mobile.show_model()         #calling class method
